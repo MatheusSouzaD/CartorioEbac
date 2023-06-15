@@ -109,7 +109,7 @@ int main()
 	int opcao=0; //definindo as variáveis
 	int laco=1;
 	
-	for(laco=1;laco=1;)
+	for(laco=1;laco=1;)//para voltar aqui com laço de repetição
 	{
 	    system("cls");
 	
@@ -121,6 +121,7 @@ int main()
      	printf("\t1 - Registrar nomes\n");
     	printf("\t2 - Consultar nomes\n");
 	    printf("\t3 - Deletar nomes\n\n\n");//fim do menu
+	    printf("\t4 - Sair\n\n");
     	printf("\tOpção: \n");
 	
     	scanf("%d", &opcao);//armazenando a escolha
@@ -140,6 +141,11 @@ int main()
 		case 3:
 		    deleta();
 	    break;
+	    
+	    case 4:
+	    	printf("Obrigado por entrar no sistema!");
+	    	return 0;
+	    	break;
 		
 		default:
 			printf("\tEssa opção não existe\n");
