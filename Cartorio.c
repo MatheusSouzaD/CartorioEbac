@@ -121,7 +121,7 @@ int main()
      	printf("\t1 - Registrar nomes\n");
     	printf("\t2 - Consultar nomes\n");
 	    printf("\t3 - Deletar nomes\n\n\n");//fim do menu
-	    printf("\t4 - Sair\n\n");
+	    printf("\t4 - Teste alteração para o github\n\n");
     	printf("\tOpção: \n");
 	
     	scanf("%d", &opcao);//armazenando a escolha
